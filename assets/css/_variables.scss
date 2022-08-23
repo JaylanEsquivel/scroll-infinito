@@ -1,0 +1,7 @@
+
+@mixin flexCenter ($justify_content, $align_items, $direction){
+    display: flex;
+    justify-content: $justify_content; //horizontal: row  // vertical : column
+    align-items: $align_items;    // vertical : row // Horizontal : column
+    flex-direction: $direction;
+}
